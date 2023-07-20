@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>   
+     <form action="">
+
+        <h1>Payment information </h1> 
+        <p>Required fields are followed by *</p>
+        <h2>Contact information</h2>
+       
+        <p>Name: * <input type="text" name="name" required></p>
+       <fieldset>
+        <legend>Gender</legend>
+        <p>
+            male <input type="radio" name="gender" id="male">
+            female <input type="radio" name="gender" id="female">
+        </p>
+    </fieldset> 
+    <p>
+        Adress <textarea name="Adress" id="Adress" cols="60" rows="10"></textarea>
+    </p>
+        Email: <input type="email" name="Email" id="Email">
+        Pincode: <input type="number" name="Pincode" id="Pincode"></div>
+    <h2>Payment Information</h2>
+    <p>Card Type: *
+   <select name="Card_type" id="Card_typese" required>
+    <option value="">--select a card type--</option>
+     <option value="Bank" >Bank</option>
+    <option value="UPI">UPI</option>
+    <option value="Paytm ">Paytm</option>
+    </select></p>
+        
+   <p> Account number: <input type="text" name="Account number" id="Account number"></p> 
+   <p> UPI id: <input type="text" name="UPI id" id="UPI id"></p>
+   <p>  Paytm id: <input type="text" name="Paytm id" id="Paytm id"></p>
+<input type="submit" value="submit">
+<input type="reset" value="Reset">
+    </form>
+</body>
+</html>

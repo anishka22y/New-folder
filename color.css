@@ -1,0 +1,20 @@
+h1,h2 {
+    font-size: xx-large;
+    background-color: rgb(115, 70, 219); 
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid black;
+}
+
+body{
+    background-color: rgb(165, 233, 195);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:large;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 20px;
+}
+
+
+
